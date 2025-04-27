@@ -1,31 +1,26 @@
-# Desafio_datos
-¡Bienvenidos al primer desafío!
-Durante este desafío, ayudarás al Sr. Juan a decidir qué tienda de su cadena Alura Store debe vender para iniciar un nuevo emprendimiento. Para ello, analizarás datos de ventas, rendimiento y reseñas de las 4 tiendas de Alura Store. El objetivo es identificar la tienda menos eficiente y presentar una recomendación final basada en los datos.
+# Análisis de Ventas en Tiendas - Proyecto AluraStore
 
-Lo que practicarás:
-Cargue y manipule datos CSV con la biblioteca Pandas.
+## Descripción
 
-Cree visualizaciones de datos con la biblioteca Matplotlib.
+Este proyecto se centra en el análisis de datos de ventas de cuatro tiendas diferentes, con el objetivo de identificar la tienda con menor desempeño y proporcionar recomendaciones basadas en diversos factores de rendimiento. A través de un análisis exhaustivo de ingresos, categorías de productos, calificaciones de clientes y costos de envío, se busca ofrecer una visión clara y objetiva para la toma de decisiones.
 
-Analice métricas como ingresos, reseñas y rendimiento de ventas.
+## Contenido
 
-Requisitos:
-Analizar datos de la tienda:
+- **Importación de Datos:** Carga de los datasets de cada tienda desde fuentes externas.
+- **Análisis de Facturación:** Cálculo de ingresos totales por tienda.
+- **Ventas por Categoría:** Análisis de la cantidad de productos vendidos por categoría en cada tienda.
+- **Calificaciones Promedio:** Evaluación de la satisfacción del cliente a través de calificaciones promedio.
+- **Productos Más y Menos Vendidos:** Identificación de los productos con mejor y peor desempeño en cada tienda.
+- **Costo de Envío Promedio:** Análisis del costo de envío para cada tienda.
 
-Debes evaluar información como los ingresos, las categorías más vendidas, las reseñas de los clientes, los productos más vendidos y el envío promedio.
+## Instalación
 
- 
+Para ejecutar este proyecto, necesitarás tener instalado Python y las siguientes bibliotecas:
 
-Crear gráficos para visualización:
+- pandas
+- matplotlib
 
-Decide qué tipos de gráficos utilizar para presentar los resultados de forma clara y visual.
+Puedes instalar las bibliotecas necesarias utilizando pip:
 
-Mínimo de 3 gráficos diferentes, que pueden incluir gráficos de barras, circulares, de dispersión y otros.
-
- 
-
-Enviar una recomendación:
-
-Después del análisis, escriba un texto explicando a qué tienda debería vender el Sr. João y por qué, basándose en los datos presentados.
-
-¡Éxito en tu proyecto!
+```bash
+pip install pandas matplotlib
